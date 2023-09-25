@@ -1,0 +1,497 @@
+/* *********************BELOW IS HOME PAGE*********************** */
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("snow.jpeg");
+    background-size: cover;
+  }
+
+#header1 {
+    color: white;
+    display: flex;
+    margin-left: 8em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-family: fantasy;
+    font-size: 4em;
+}
+
+.links {
+    display: flex;
+    margin-left: 2em;
+    margin-top: 0em;
+    font-family: fantasy;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    gap: 6em;
+    
+}
+
+.intro {
+    margin-left: 2.6em;
+    font-family: fantasy;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+.image {
+    padding-left: 7em;
+    margin-top: 2em;
+}
+
+.bio {
+    display: flex;
+    margin: 1.5em 5em 0em 6em;
+    color: aqua;
+    text-align: center;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: inset 0 0 0 0 rgba(255,255,255,0.08);
+    padding: 2rem;
+
+}
+
+.quote {
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+}
+
+.snowflake1 {
+    height: 8px;
+    width: 8px;
+    background-color: aliceblue;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 2em;
+    top: 2em;
+    opacity: .5;
+}
+.snowflake2 {
+    height: 12px;
+    width: 12px;
+    background-color: aliceblue;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 20em;
+    top: 5em;
+    opacity: .5;
+}
+.snowflake3 {
+    height: 5px;
+    width: 5px;
+    background-color: aliceblue;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 45em;
+    top: 5em;
+    opacity: .5;
+}
+.snowflake4 {
+    height: 15px;
+    width: 15px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 35em;
+    top: 20em;
+    opacity: .5;
+}
+.snowflake5 {
+    height: 5px;
+    width: 5px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 4em;
+    top: 20em;
+    opacity: .5;
+}
+.snowflake6 {
+    height: 15px;
+    width: 15px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 35em;
+    top: 20em;
+    opacity: .5;
+}
+.snowflake7 {
+    height: 10px;
+    width: 10px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 3em;
+    top: 32em;
+    opacity: .5;
+}
+.snowflake8 {
+    height: 13px;
+    width: 13px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 1em;
+    top: 46em;
+    opacity: .5;
+}
+.snowflake9 {
+    height: 9px;
+    width: 9px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 8em;
+    top: 56em;
+    opacity: .5;
+}
+.snowflake10 {
+    height: 12px;
+    width: 12px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 35em;
+    top: 20em;
+    opacity: .5;
+}
+.snowflake11 {
+    height: 8px;
+    width: 8px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 26em;
+    top: 54em;
+    opacity: .5;
+}
+.snowflake12 {
+    height: 9px;
+    width: 9px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 50em;
+    top: 14em;
+    opacity: .5;
+}
+.snowflake13 {
+    height: 13px;
+    width: 13px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 62em;
+    top: 5em;
+    opacity: .5;
+}
+.snowflake14 {
+    height: 6px;
+    width: 6px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 76em;
+    top: 3em;
+    opacity: .5;
+}
+.snowflake15 {
+    height: 8px;
+    width: 8px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 83em;
+    top: 11em;
+    opacity: .5;
+}
+.snowflake16 {
+    height:7px;
+    width: 7px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 72em;
+    top: 33em;
+    opacity: .5;
+}
+.snowflake17 {
+    height: 12px;
+    width: 12px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 77em;
+    top: 22em;
+    opacity: .5;
+}
+.snowflake18 {
+    height: 8px;
+    width: 8px;
+    background-color: aliceblue;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 52em;
+    top: 33em;
+    opacity: .5;
+}
+.snowflake19 {
+    height: 5px;
+    width: 5px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 63em;
+    top: 22em;
+    opacity: .5;
+}
+.snowflake20 {
+    height: 8px;
+    width: 8px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 68em;
+    top: 44em;
+    opacity: .5;
+}
+.snowflake21 {
+    height: 15px;
+    width: 15px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 88em;
+    top: 31em;
+    opacity: .5;
+}
+.snowflake22 {
+    height: 7px;
+    width: 7px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 45em;
+    top: 56em;
+    opacity: .5;
+}
+.snowflake23 {
+    height: 11px;
+    width: 11px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 40em;
+    top: 41em;
+    opacity: .5;
+}
+.snowflake24 {
+    height: 6px;
+    width: 6px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 80em;
+    top: 48em;
+    opacity: .5;
+}
+.snowflake25 {
+    height: 8px;
+    width: 8px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 54em;
+    top: 48em;
+    opacity: .5;
+}
+.snowflake26 {
+    height: 8px;
+    width: 8px;
+    background-color: aliceblue; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 67em;
+    top: 55em;
+    
+}
+
+#bioContainer {
+    display: flex;
+    align-items: center;
+}
+/* *******************ABOVE IS HOME PAGE***************** */
+
+/* **********************BELOW IS ABOUT PAGE********************* */
+#aboutintro {
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+}
+
+.headings{
+    color: aqua;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#header2 {
+    color: white;
+    display: flex;
+    margin-left: 8em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-family: fantasy;
+    font-size: 4em;
+}
+
+.smallcontainer {
+    display: flex;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    gap: 22em;
+    margin-top: 2em;
+}
+
+.hobbies {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2em;
+    margin-top: 0em;
+    /* gap: 20em; */
+}
+
+.container2 {
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    margin-top: 1em;
+    margin-bottom: 5em;
+    display: flex;
+    gap: 5em;
+}
+
+#portfoliointro {
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+/* ABOVE IS ABOUT PAGE */
+/* BELOW IS CONTACT PAGE */
+
+
+.body2 {
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+filter: drop-shadow(0 0 10px rgb(127, 219, 235));
+}
+
+.formbox {
+    /* border: red 1px solid; */
+    height: 50%;
+    width: 100vw;
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.messagefield {
+    
+}
+
+#message {
+    min-height: 100px;
+    max-height: 100px;
+    resize: none;
+}
+/* *************CONTACT PAGE ABOVE *************** */
+/* *******LINKED IN & GITHUB STYLING BELOW************* */
+.footercontainer {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    height: 1em;
+    width: 10em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    gap: 1em;
+  }
+
+  .fa-linkedin:link, .fa-linkedin:visited {
+    color: white;
+ }
+
+ .fa-linkedin:hover, .fa-linkedin:active {
+    color: pink;
+ }
+.fa:hover {
+      opacity: 0.7; 
+  } 
+
+  .fa-github:link, .fa-github:visited {
+    color: white;
+ }
+
+ .fa-github:hover, .fa-github:active {
+    color: pink;
+ }
+
+/* BELOW IS PORTFOLIO PAGE */
+
+.containerpics {
+    display: flex;
+    gap: 3em;
+    align-self: center;
+    margin: 0 6em 0 6em;
+    
+}
+
+.aboutflex{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    gap: 5em;
+    background-color: rgb(36, 155, 195);
+    margin-top: 2em;
+}
+
